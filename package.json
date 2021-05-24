@@ -1,0 +1,39 @@
+{
+  "name": "tdd-react-counter",
+  "version": "1.0.0",
+  "description": "A little example on Test Driven Development on React with the help of Jest to create a counter application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve --open",
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngyDev/TDD-react-counter.git"
+  },
+  "author": "Angela Busato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngyDev/TDD-react-counter/issues"
+  },
+  "homepage": "https://github.com/AngyDev/TDD-react-counter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "@testing-library/react": "^11.2.7",
+    "@types/jest": "^26.0.23",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "jest": "^26.6.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
