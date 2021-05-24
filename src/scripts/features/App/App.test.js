@@ -4,13 +4,13 @@ import '@testing-library/jest-dom';
 
 import App from "./App";
 
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 
 describe("Counter Testing", () => {
 
     let wrapper;
     beforeEach(() => {
-        wrapper = shallow(<App />);
+        wrapper = mount(<App />);
     });
 
     it("render the title of counter", () => {
