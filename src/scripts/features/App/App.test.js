@@ -44,4 +44,9 @@ describe("Counter Testing", () => {
         wrapper.find("#decrement-btn").simulate("click");
         expect(wrapper.find("#counter-value").text()).toBe("0");
     });
+
+    it("decrement button will not decrement the counter below 0", () => {
+        wrapper.find("#decrement-btn").simulate("click");
+        expect(wrapper.find("#counter-value").text()).toBe("0");
+    });
 })
